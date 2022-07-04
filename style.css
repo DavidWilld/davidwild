@@ -1,0 +1,135 @@
+*{ padding: 0;
+    margin: 0;
+}
+#titulo{
+    width: 95%;
+    height: 100px;
+    background-color:floralwhite;
+    margin: 7px auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 30px;
+}
+#titulo img{
+    width: 250px;
+    height: 130px;
+
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: palevioletred;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1:hover{
+background-color:black;
+transition: 2s;
+color: #fff;
+}
+.img img{
+    width: 150px;
+    height: 90px;
+    align-items: baseline;
+
+}
+#menu{
+    
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+}
+#menu a {
+    color:palevioletred;
+    text-decoration:none;
+    font-size: 25px;
+    
+}
+#menu a:hover{
+    color: #fff;
+    padding: 19px 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:black;
+    transition: 2s;
+    border-radius: 5px;
+}
+#contenido{
+    height: 490px;
+    margin:10px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 70px;
+}
+#contenido img{
+    align-items: center;
+    width: 100%;
+    height: 490px;
+    margin: 1px;
+    border-radius: 10%;
+    
+}
+.imgcontenido{
+    width: 600px;
+    height: auto;
+    
+    display: flex;
+    margin: 8px;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    max-width: 500px;
+    
+}
+.textcontenido{
+    width: 600px;;
+    height: auto;
+    
+    display: flex;
+    margin-left:20px;
+    margin: 7px;
+    flex-wrap: wrap;
+    max-width: 500px;
+    border-radius: 2%;
+}
+.tee{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.marca{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    
+}
+.marca h2{
+    color: palevioletred;
+    margin: 3px;
+}
+.otras h2{
+    color: palevioletred;
+    margin: 3px;
+}
+.otras{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+#pie{
+    width: 90%;
+    height: auto;
+    margin: 10px;
+    padding: 7px;
+    text-align: center;
+    color:black;
+}
+
